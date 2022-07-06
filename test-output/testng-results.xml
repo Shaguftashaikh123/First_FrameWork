@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46686" started-at="2022-07-04T11:50:35 IST" finished-at="2022-07-04T11:51:22 IST">
+    <groups>
+    </groups>
+    <test name="Test_Chrome" duration-ms="9269" started-at="2022-07-04T11:50:35 IST" finished-at="2022-07-04T11:50:44 IST">
+      <class name="Com.LogInTest.Test_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Com.LogInTest.Test_001@4eb7f003]" name="setUp" is-config="true" duration-ms="7826" started-at="2022-07-04T11:50:35 IST" finished-at="2022-07-04T11:50:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogInpage()[pri:0, instance:Com.LogInTest.Test_001@4eb7f003]" name="verifyLogInpage" duration-ms="335" started-at="2022-07-04T11:50:43 IST" finished-at="2022-07-04T11:50:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.LogInTest.Test_001@4eb7f003]" name="tearDown" is-config="true" duration-ms="1035" started-at="2022-07-04T11:50:43 IST" finished-at="2022-07-04T11:50:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.LogInTest.Test_001 -->
+    </test> <!-- Test_Chrome -->
+    <test name="Test_Edge" duration-ms="37351" started-at="2022-07-04T11:50:45 IST" finished-at="2022-07-04T11:51:22 IST">
+      <class name="Com.LogInTest.Test_001">
+        <test-method status="PASS" signature="StreamSetup()[pri:0, instance:Com.LogInTest.Test_001@3891771e]" name="StreamSetup" is-config="true" duration-ms="1336" started-at="2022-07-04T11:50:34 IST" finished-at="2022-07-04T11:50:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StreamSetup -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Com.LogInTest.Test_001@3891771e]" name="setUp" is-config="true" duration-ms="35906" started-at="2022-07-04T11:50:45 IST" finished-at="2022-07-04T11:51:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogInpage()[pri:0, instance:Com.LogInTest.Test_001@3891771e]" name="verifyLogInpage" duration-ms="293" started-at="2022-07-04T11:51:20 IST" finished-at="2022-07-04T11:51:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.LogInTest.Test_001@3891771e]" name="tearDown" is-config="true" duration-ms="1145" started-at="2022-07-04T11:51:21 IST" finished-at="2022-07-04T11:51:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.LogInTest.Test_001 -->
+    </test> <!-- Test_Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
